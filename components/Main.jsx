@@ -18,7 +18,7 @@ export default function Main(){
         setSelectedFgColor(color)
     }
     return (
-        <div className="m-8 ">
+        <div className="md:m-8  m-4">
             <Navbar />
             <SkinComponent />
             <div className="flex m-3 h-[700px]">
