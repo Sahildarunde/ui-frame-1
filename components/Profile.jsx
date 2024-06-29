@@ -2,7 +2,7 @@ export default function Profile({bgColor, fgColor}) {
     console.log(bgColor)
     return (
       <div>
-        <div className="border border-gray-400 absolute rounded-md m-5">
+        <div className="border border-gray-400 absolute rounded-md m-5 lg:mr-12">
            <div className="md:m-12 m-2 relative border border-gray-400 rounded-lg " style={{ background: bgColor, color:fgColor }}> {/* this is the one that i have to change dynamically */}
             <div className="m-5 z-0 border border-dashed border-gray-600 rounded">
               <div className="m-1 h-40 rounded-lg relative overflow-hidden">

@@ -1,6 +1,6 @@
 export default function Navbar(){
     return (
-        <div className="block mt-14 flex justify-between items-center md:m-4">
+        <div className="block mt-14 flex justify-between items-center  md:ml-16 lg:ml-4 lg:mr-4">
             <h2 className="text-xl md:text-2xl font-semibold">Themes</h2>
             <div className="flex gap-4 items-center bg-[#f3f0ff] p-2 px-3 rounded" >
                 <p className="block ">Kushagra Singh</p>

@@ -3,7 +3,7 @@ import { linear_gradient, radial_gradient, solids } from "../lib/colors";
 export default function Color({ onClickHandlerBg, onClickHandlerFg, selectedFgColor, selectedBgColor }) {
     return (
         <div>
-            <div className="m-5">
+            <div className="m-5 md:ml-16 lg:ml-4">
                 <h4 className="text-lg font-semibold">Solids</h4>
                 <div className="mt-4 flex flex-wrap gap-2">
                     {solids.map((hexcol) => (
@@ -16,7 +16,7 @@ export default function Color({ onClickHandlerBg, onClickHandlerFg, selectedFgCo
                     ))}
                 </div>
             </div>
-            <div className="m-5">
+            <div className="m-5 md:ml-16 lg:ml-4">
                 <h4 className="text-lg font-semibold">Linear Gradients</h4>
                 <div className="mt-4 flex flex-wrap gap-2">
                     {linear_gradient.map((gradient) => (
@@ -29,7 +29,7 @@ export default function Color({ onClickHandlerBg, onClickHandlerFg, selectedFgCo
                     ))}
                 </div>
             </div>
-            <div className="m-5">
+            <div className="m-5 md:ml-16 lg:ml-4">
                 <h4 className="text-lg font-semibold">Radial Gradients</h4>
                 <div className="mt-4 flex flex-wrap gap-2">
                     {radial_gradient.map((gradient) => (
@@ -42,7 +42,7 @@ export default function Color({ onClickHandlerBg, onClickHandlerFg, selectedFgCo
                     ))}
                 </div>
             </div>
-            <div className="m-5">
+            <div className="m-5 md:ml-16 lg:ml-4">
                 <h4 className="text-lg font-semibold">Foreground Color</h4>
                 <div className="mt-4 flex flex-wrap gap-2">
                     <ColorBlock
