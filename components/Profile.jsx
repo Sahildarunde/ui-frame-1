@@ -2,8 +2,8 @@ export default function Profile({bgColor, fgColor}) {
     console.log(bgColor)
     return (
       <div>
-        <div className="border border-gray-400 h-[720px] rounded-md m-5">
-           <div className="m-12 h-[650px] border border-gray-400 rounded-lg " style={{ background: bgColor, color:fgColor }}> {/* this is the one that i have to change dynamically */}
+        <div className="border border-gray-400 absolute rounded-md m-5">
+           <div className="md:m-12 m-2 relative border border-gray-400 rounded-lg " style={{ background: bgColor, color:fgColor }}> {/* this is the one that i have to change dynamically */}
             <div className="m-5 z-0 border border-dashed border-gray-600 rounded">
               <div className="m-1 h-40 rounded-lg relative overflow-hidden">
                 <img src="/cover.jpg" alt="" className="absolute inset-0 w-full h-full object-cover object-top" />
@@ -26,8 +26,8 @@ export default function Profile({bgColor, fgColor}) {
                 </div>
             </div>
 
-            <div className={` ${fgColor === '#fefefe' ? `#fefefe` : `text-gray-600`} mt-6 ml-20 h-56 w-[800px] border border-dashed border-gray-600 rounded-lg p-5 flex items-center`}>
-                <span className=" text-lg">I am a visionary Graphics and UI/UX Designer, seamlessly blending artistic flair with technical expertise. With a degree in Graphic Design, I consistently deliver visually stunning and user-centric solutions, leaving an indelible mark on the digital landscape. As a trusted collaborator, I am dedicated to crafting pixel-perfect Uls and captivating graphics that elevate user experiences.</span>
+            <div className={` ${fgColor === '#fefefe' ? `#fefefe` : `text-gray-600`} mt-6 ml-20 md:h-52 md:w-102 m-5 border border-dashed border-gray-600 rounded-lg p-5 flex items-center`}>
+                <span className=" text-md">I am a visionary Graphics and UI/UX Designer, seamlessly blending artistic flair with technical expertise. With a degree in Graphic Design, I consistently deliver visually stunning and user-centric solutions, leaving an indelible mark on the digital landscape. As a trusted collaborator, I am dedicated to crafting pixel-perfect Uls and captivating graphics that elevate user experiences.</span>
             </div>
           </div>
         </div>

@@ -21,8 +21,8 @@ export default function Main(){
         <div className="md:m-8  m-4">
             <Navbar />
             <SkinComponent />
-            <div className="flex m-3 h-[700px]">
-                <div className="w-1/3">
+            <div className="flex m-3 h-screen flex-col md:flex-row">
+                <div className="md:w-1/3 w-full ">
                     <Color onClickHandlerBg={handleBgColorChange} onClickHandlerFg={handleFgColorChange} selectedBgColor={selectedBgColor} selectedFgColor={selectedFgColor}/>
                 </div>
                 <div className="w-full">

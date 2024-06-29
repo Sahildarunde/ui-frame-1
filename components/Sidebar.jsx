@@ -2,7 +2,7 @@ import SidebarButtonCard from "./SidebarButtonCard";
 
 export default function Sidebar(){
     return (
-        <div className="h-full flex flex-col justify-between">
+                <div className="h-screen bg-[#f3f0ff] flex flex-col justify-between fixed">
             <div>
                 <div className="flex w-full justify-center mt-7 mb-14 font-light ">
                     <p>Logo here</p>
